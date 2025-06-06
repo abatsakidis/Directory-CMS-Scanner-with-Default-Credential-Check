@@ -15,22 +15,22 @@ python3 scanner.py --url http://example.com --wordlist wordlist.txt
 
 ## 🧰 Options
 
-Flag				Description< br / >
---url			Base URL to scan< br / >
---wordlist		List of paths to scan< br / >
---threads		Number of concurrent threads (default: 5)< br / >
---max-depth		Recursion depth< br / >
---delay			Delay between requests< br / >
---proxy			Proxy (e.g., http://127.0.0.1:8080)< br / >
---use-tor		Use Tor proxy (127.0.0.1:9050)	< br / >
---verbose		Enable detailed logging< br / >
+Flag				Description<br/>
+--url			Base URL to scan<br/>
+--wordlist		List of paths to scan<br/>
+--threads		Number of concurrent threads (default: 5)<br/>
+--max-depth		Recursion depth<br/>
+--delay			Delay between requests<br/>
+--proxy			Proxy (e.g., http://127.0.0.1:8080)<br/>
+--use-tor		Use Tor proxy (127.0.0.1:9050)<br/>
+--verbose		Enable detailed logging<br/>
 
 ## 📄 Examples
 
-Basic scan: < br / >
-* python3 scanner.py --url http://target.com --wordlist wordlist.txt< br / >
-With Tor and verbose mode: < br / >
-* python3 scanner.py --url http://target.onion --wordlist wordlist.txt --use-tor --verbose< br / >
+Basic scan: <br/>
+* python3 scanner.py --url http://target.com --wordlist wordlist.txt<br/>
+With Tor and verbose mode: <br/>
+* python3 scanner.py --url http://target.onion --wordlist wordlist.txt --use-tor --verbose<br/>
 
 
 ## 💡 Features
